@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hitapi/app/modules/main/pages/main_screen.dart';
+import 'package:hitapi/app/modules/main/page/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
