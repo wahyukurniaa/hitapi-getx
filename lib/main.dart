@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hitapi/app/modules/main/page/main_screen.dart';
+import 'package:hitapi/app/routes/app_router.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,6 +15,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       theme: ThemeData(),
       home: const MainScreen(),
+      getPages: AppRouter.getRouter(),
     );
   }
 }

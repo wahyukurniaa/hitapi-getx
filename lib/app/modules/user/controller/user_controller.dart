@@ -13,7 +13,7 @@ class UserController extends GetxController {
 
     if (response.statusCode == 200) {
       var data = response.body;
-      debugPrint('data: ${response.body}');
+      // debugPrint('data: ${response.body}');
 
       results.value = jsonDecode(data) as List<dynamic>;
     } else {
